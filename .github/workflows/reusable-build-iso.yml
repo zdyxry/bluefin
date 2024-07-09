@@ -27,11 +27,11 @@ jobs:
       matrix:
         image_flavor:
           - main
-          - nvidia
-          - asus
-          - asus-nvidia
-          - surface
-          - surface-nvidia
+          # - nvidia
+          # - asus
+          # - asus-nvidia
+          # - surface
+          # - surface-nvidia
         base_name:
           - ${{ inputs.brand_name }}
           - ${{ inputs.brand_name }}-dx
